@@ -47,11 +47,11 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
 import com.dovantuan.lab7_ph31763_kot104.LoginViewModel
 import com.dovantuan.lab7_ph31763_kot104.R
-
 import com.dovantuan.lab7_ph31763_kot104.Screen
 
+
 @Composable
-fun Bai3(navController: NavController) {
+fun LoginSreen(navController: NavController) {
 
     val loginViewModel: LoginViewModel = viewModel()
     LoginCard(navController, loginViewModel)

@@ -4,7 +4,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import com.dovantuan.lab7_ph31763_kot104.BaiTap.Bai2
+import com.dovantuan.lab7_ph31763_kot104.BaiTap.ScreenNavigation
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -12,7 +12,8 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
 //            Bai1()
-            Bai2()
+//            Bai2()
+            ScreenNavigation()
         }
     }
 }
